@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Bread Calculator </title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <div id="calc-body">
+        <h1>Bread Calculator</h1>
+        <div class="input-row">
+            <label for="flour">Flour</label>
+            <input id="flour" type="number"  value="500"><span class="unit"><span class="unit">g</span> 
+        </div>
+        <div class="input-row">
+            <label for="water">Water</label>
+            <input id="water" type="number" min="0" value="320"><span class="unit"><span class="unit">g</span> 
+        </div>
+        <div class="input-row">
+            <label for="starter">Sourdough Starter</label>
+            <input id="starter" type="number" min="0" value="120"><span class="unit"><span class="unit">g</span> 
+        </div>
+        <div class="input-row">
+            <label for="salt">Salt</label>
+            <input id="salt" type="number" step="0.1" min="0" value="11"><span class="unit"><span class="unit">g</span> 
+        </div>
+        <div class="input-row">
+            <label for="hydration">Hydration</label>
+            <input id="hydration" type="number" step="0.1" min="0" value="67.8"><span class="unit"><span class="unit">%</span> 
+        </div>
+        <div class="input-row">
+            <label for="ss_percent">Starter</label>
+            <input id="ss_percent" step="0.1" type="number" min="0" value="24"><span class="unit"><span class="unit">%</span> 
+        </div>
+    </div>
+    <div id="hydration-icons">
+        <div id="tempLeft" class="icon-wrapper">
+            
+        </div>
+        <div id="iconLeft" class="icon-wrapper">
+            
+        </div>
+        <div id="iconMid" class="icon-wrapper">
+            
+        </div>
+        <div id="iconRight" class="icon-wrapper">
+            
+        </div>
+        <div id="tempRight" class="icon-wrapper">
+            
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
